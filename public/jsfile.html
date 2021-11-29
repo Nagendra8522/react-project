@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <div class="container">
+        <div class="row">
+            <form  onsubmit="test()">
+                
+                    <input type="text" id="nags" placeholder="enter the first name">First name
+                
+                    <input type="text" id= "nags1" placeholder="enter the lastr name">Last name
+
+                    <input type="submit" value="clickhere">
+            </form>
+            <h3 id="nags"></h3>
+        </div>
+    
+    </div>
+    
+    <script>
+        function test(){
+            var x =  document.getElementById("nags").value;
+            var y = document.getElementById("nags1").value;
+           alert("first name is" +" " + x +" " + 'and' +" "+ 'last name is' + " " + y);
+        }
+    </script>
+</body>
+</html>
